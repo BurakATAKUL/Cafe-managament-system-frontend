@@ -1,0 +1,8 @@
+--> React kurulum için <--
+
+npm create vite@latest cafe_menu_frontend // ardından React daha sonra JavaScript seçilir
+
+--> Proje dizinine git npmi kur <--
+ npm install
+ npm run dev
+

@@ -41,7 +41,13 @@ function SideBar() {
                             <HomeIcon />
                         </ListItemIcon>
                         <ListItemText primary="Cafe" />
+                        
                     </ListItem>
+                    <ListItem button primary="Add Cafe" component={Link} to="/addCafe">
+                        <ListItemText primary="Add Cafe">
+                            Add cafe
+                        </ListItemText>
+                        </ListItem> 
                 </List>
             </Drawer>
         </>
